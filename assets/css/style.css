@@ -379,6 +379,9 @@ section {
 .img-copia {
   opacity: 0.6;
 }
+.img-border {
+  border-radius: 10px;
+}
 
 /*--------------------------------------------------------------
 # Facts
