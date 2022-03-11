@@ -139,9 +139,9 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 50,
+      backSpeed: 10,
+      backDelay: 1000
     });
   }
 
@@ -248,9 +248,9 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 500,
       easing: 'ease-in-out',
-      once: true,
+      once: false,
       mirror: false
     })
   });
