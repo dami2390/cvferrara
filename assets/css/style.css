@@ -468,6 +468,13 @@ section {
   margin-bottom: 20px;
   color: #45505b;
 }
+h3 p em {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
